@@ -1,0 +1,38 @@
+.crvena{
+    color:red;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bordura{
+   border-color: red;
+   
+}
+
+#formaDole input,#message{
+    color:white;
+}
+.hoverSlike:hover{
+    cursor: pointer;
+}
+.seo{
+    display: none;
+}
+
+
+#slike{
+    position: relative;
+    height: 460px;
+}
+#slike img{display: none;}
+#slike .aktivna{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: block;}
+
+

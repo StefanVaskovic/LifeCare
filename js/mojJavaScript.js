@@ -85,7 +85,7 @@ function proveraImena(){
 function proveraImena1(){
     
     let vrednostImena = document.getElementById("name1").value.trim();
-    let reIme = /^([A-ZČĆŽŠĐŠЧЋШЂЉЖ][a-zčćđšž]+)\s?([A-ZČĆŽŠĐŠЧЋШЂЉЖ][a-zčćđšž]+)?$/;;
+    let reIme = /^([A-ZČĆŽŠĐŠЧЋШЂЉЖ][a-zčćđšž]+)\s?([A-ZČĆŽŠĐŠЧЋШЂЉЖ][a-zčćđšž]+)?$/;
 
     if(vrednostImena==""){
         document.getElementById("name1").style.borderBottomColor="red";
